@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47.426" height="78.592" viewBox="0 0 47.426 78.592">
+  <g id="Blender-Cooking-Household-Mixer-Food" transform="translate(-16 -3)">
+    <path id="Path_1025" data-name="Path 1025" d="M53.84,16.42V27.26a5.42,5.42,0,0,1-5.42,5.42H43V27.26h4.065a1.355,1.355,0,0,0,1.355-1.355v-8.13a1.355,1.355,0,0,0-1.355-1.355H43V11h5.42A5.42,5.42,0,0,1,53.84,16.42Z" transform="translate(9.586 2.84)" fill="#d1d3d4"/>
+    <path id="Path_1026" data-name="Path 1026" d="M50.811,9.71v2.71H21V9.71A2.718,2.718,0,0,1,23.71,7H48.1A2.718,2.718,0,0,1,50.811,9.71Z" transform="translate(1.775 1.42)" fill="#5aaae7"/>
+    <path id="Path_1027" data-name="Path 1027" d="M30,3h5.42V8.42H30Z" transform="translate(4.97)" fill="#3d9ae2"/>
+    <path id="Path_1028" data-name="Path 1028" d="M24,35H45.68v5.42H24Z" transform="translate(2.84 11.361)" fill="#3d9ae2"/>
+    <path id="Path_1029" data-name="Path 1029" d="M55.941,57v5.42H18V57H55.941Z" transform="translate(0.71 19.172)" fill="#3d9ae2"/>
+    <path id="Path_1030" data-name="Path 1030" d="M25.42,39H48.456l2.629,5.271a13.458,13.458,0,0,1,1.436,6.057V63.391H20V50.328a13.458,13.458,0,0,1,1.436-6.057L24.065,39Z" transform="translate(1.42 12.781)" fill="#5aaae7"/>
+    <path id="Path_1031" data-name="Path 1031" d="M22.775,11V21.84l-6.5-8.672A1.355,1.355,0,0,1,17.355,11Z" transform="translate(0 2.84)" fill="#d1d3d4"/>
+    <path id="Path_1032" data-name="Path 1032" d="M50.811,27.26v5.42L48.1,43.521H23.71L21,32.68V11H50.811V27.26Z" transform="translate(1.775 2.84)" fill="#e6e7e8"/>
+    <circle id="Ellipse_10" data-name="Ellipse 10" cx="5.5" cy="5.5" r="5.5" transform="translate(35 61.592)" fill="#3d9ae2"/>
+    <circle id="Ellipse_11" data-name="Ellipse 11" cx="5.5" cy="5.5" r="5.5" transform="translate(32 58.592)" fill="#e6e7e8"/>
+    <path id="Path_1033" data-name="Path 1033" d="M24,35H45.68v2.71H24Z" transform="translate(2.84 11.361)" fill="#1e81ce"/>
+    <rect id="Rectangle_57" data-name="Rectangle 57" width="3" height="5" rx="1" transform="translate(36 58.592)" fill="#1e81ce"/>
+    <g id="Group_117" data-name="Group 117" transform="translate(33.615 20.615)">
+      <path id="Path_1034" data-name="Path 1034" d="M29,16h8.13v2.71H29Z" transform="translate(-29 -16)" fill="#d8d7da"/>
+      <path id="Path_1035" data-name="Path 1035" d="M29,20h8.13v2.71H29Z" transform="translate(-29 -14.58)" fill="#d8d7da"/>
+      <path id="Path_1036" data-name="Path 1036" d="M29,24h8.13v2.71H29Z" transform="translate(-29 -13.16)" fill="#d8d7da"/>
+      <path id="Path_1037" data-name="Path 1037" d="M29,28h8.13v2.71H29Z" transform="translate(-29 -11.74)" fill="#d8d7da"/>
+    </g>
+    <path id="Path_1038" data-name="Path 1038" d="M0,0H2.71V2.71H0Z" transform="translate(28.09 56.31) rotate(-45)" fill="#1e81ce"/>
+    <path id="Path_1039" data-name="Path 1039" d="M0,0H2.71V2.71H0Z" transform="translate(43.418 56.311) rotate(-45)" fill="#1e81ce"/>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+{
+  "name": "hungrydemocracynuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node ./node_modules/nuxt/bin/nuxt dev",
+    "build": "node ./node_modules/nuxt/bin/nuxt build",
+    "start": "node ./node_modules/nuxt/bin/nuxt.js start",
+    "generate": "nuxt generate",
+    "deploy": "rm -rf node_modules/; rm releases.zip;  zip -r releases.zip . && az webapp deploy --resource-group hungrydemocracy_group --name hungrydemocracy --type zip --src-path releases.zip --timeout 9000000 --verbose --clean true --debug"
+  },
+  "dependencies": {
+    "@aceforth/nuxt-optimized-images": "^1.4.0",
+    "@nuxt/content": "^1",
+    "@nuxt/types": "^2.15.8",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/firebase": "^8.2.2",
+    "@nuxtjs/google-adsense": "^2.1.0",
+    "@nuxt/image": "^0.7.1",
+    "@nuxtjs/robots": "^2.5.0",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "@types/algoliasearch": "^4.0.0",
+    "algoliasearch": "4.9.1",
+    "browser-image-compression": "1.0.14",
+    "core-js": "^3.19.3",
+    "firebase": "^9.9.0",
+    "nuxt": "^2.15.8",
+    "sass": "1.32.0",
+    "sass-loader": "10.1.1",
+    "swiper": "5.4.5",
+    "vue": "^2.6.14",
+    "vue-advanced-cropper": "^1.11.5",
+    "vue-awesome-swiper": "4.1.1",
+    "vue-upload-drop-images": "1.0.7",
+    "vuetify": "2.4.0",
+    "vuex-persistedstate": "^4.1.0",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "webpack-bundle-analyzer": "^4.6.1"
+  }
+}

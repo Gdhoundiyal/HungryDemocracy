@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="59.233" height="58" viewBox="0 0 59.233 58">
+  <g id="Page-1" transform="translate(4.233)">
+    <g id="_032---Coconut-Milk" data-name="032---Coconut-Milk" transform="translate(-5)">
+      <path id="Path" d="M58.94,20.53A9.894,9.894,0,0,0,56,17a9.993,9.993,0,0,1-4-8V4H41V9a10.041,10.041,0,0,1-4,8,9.993,9.993,0,0,0-4,8v1.5l.02,6.49.06,21.78A4,4,0,0,0,37,58H56a4,4,0,0,0,4-4V25a9.907,9.907,0,0,0-1.06-4.47Z" fill="#9fc9d3"/>
+      <path id="Path-2" data-name="Path" d="M60,30V54a4,4,0,0,1-4,4H37a4,4,0,0,1-3.92-3.23l-.06-21.78C37.5,33,37.5,30,42,30s4.5,3,9,3S55.5,30,60,30Z" fill="#ecf0f1"/>
+      <rect id="Rectangle" width="15" height="4" rx="1" transform="translate(39)" fill="#84b5cb"/>
+      <path id="Path-3" data-name="Path" d="M56,55H52a1,1,0,0,1,0-2h3V50a1,1,0,0,1,2,0v4A1,1,0,0,1,56,55Z" fill="#fff"/>
+      <path id="Path-4" data-name="Path" d="M6.8,48.188c5.153,6.165,16.235,15,27.1,5.917s4.138-21.557-1.014-27.722Z" fill="#a56a43"/>
+      <ellipse id="Oval" cx="17" cy="9.395" rx="17" ry="9.395" transform="matrix(0.767, -0.641, 0.641, 0.767, 0.767, 40.972)" fill="#804537"/>
+      <ellipse id="Oval-2" data-name="Oval" cx="13" cy="5.763" rx="13" ry="5.763" transform="matrix(0.767, -0.641, 0.641, 0.767, 6.163, 41.194)" fill="#ecf0f1"/>
+      <path id="Path-5" data-name="Path" d="M23.863,54.977a12.94,12.94,0,0,1-4.312-.775,1,1,0,0,1,.667-1.886,9.866,9.866,0,0,0,8.154-.476,1,1,0,0,1,.924,1.774,11.648,11.648,0,0,1-5.433,1.363Z" fill="#cf976a"/>
+      <g id="Group_121" data-name="Group 121">
+        <circle id="Oval-3" data-name="Oval" cx="1" cy="1" r="1" transform="translate(31.474 43)" fill="#804537"/>
+        <circle id="Oval-4" data-name="Oval" cx="1" cy="1" r="1" transform="translate(34.474 42)" fill="#804537"/>
+        <circle id="Oval-5" data-name="Oval" cx="1" cy="1" r="1" transform="translate(33.474 46)" fill="#804537"/>
+      </g>
+    </g>
+  </g>
+</svg>
