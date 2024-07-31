@@ -68,18 +68,8 @@
           <v-icon>mdi-file-image-plus-outline</v-icon>
         </v-btn>
       </template>
-      <template v-if="!uid">
-        <v-btn
-          min-width="120px"
-          color="primary"
-          elevation="0"
-          class="font-weight-bold"
-          large
-          @click.stop="openForm"
-          >Sign in
-        </v-btn>
-      </template>
-      <div v-else class="text-center">
+     
+      <div class="text-center">
         <v-menu offset-y>
           <template v-slot:activator="{ on, attrs }">
             <v-avatar size="36px">
