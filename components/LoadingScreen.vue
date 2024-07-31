@@ -7,7 +7,6 @@
         color="primary"
       ></v-progress-circular>
     </div>
-    <p class="loading_text">Loading Recipes ...</p>
   </div>
 </template>
 
