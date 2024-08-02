@@ -155,10 +155,10 @@ export default {
       catSimepleNames.push(category?.allNames[0])
     );
 
-    const cuisinesSimpleNames = [];
-    this.recipe?.cuisines.forEach((cuisine) =>
-      cuisinesSimpleNames.push(cuisine?.allNames[0])
-    );
+    // const cuisinesSimpleNames = [];
+    // this.recipe?.cuisines.forEach((cuisine) =>
+    //   cuisinesSimpleNames.push(cuisine?.allNames[0])
+    // );
 
     const simpleIngredientNames = [];
     this.recipe?.ingredientSections.forEach((section) =>
@@ -175,13 +175,13 @@ export default {
       )
     );
 
-    const recipeInstructions = [];
-    this.recipe?.directions.forEach((direction) =>
-      recipeInstructions.push({
-        "@type": "HowToStep",
-        text: direction,
-      })
-    );
+    // const recipeInstructions = [];
+    // this.recipe?.directions.forEach((direction) =>
+    //   recipeInstructions.push({
+    //     "@type": "HowToStep",
+    //     text: direction,
+    //   })
+    // );
 
     this.jsonld = {
       "@context": "https://schema.org/",
