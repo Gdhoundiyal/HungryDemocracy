@@ -4,7 +4,7 @@
     <div class="loader">
       <v-progress-circular
         indeterminate
-        color="primary"
+        color="secondary"
       ></v-progress-circular>
     </div>
   </div>
