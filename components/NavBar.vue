@@ -125,18 +125,18 @@
 </template>
 
 <script>
-// import LoadingComponent from "@/components/utils/LoadingComponent.vue";
-// import ErrorComponent from "@/components/utils/ErrorComponent.vue";
-// const Auth = () => ({
-//   component: import("@/components/auth/Auth.vue"),
-//   loading: LoadingComponent,
-//   error: ErrorComponent,
-//   // The error component will be displayed if a timeout is
-//   // provided and exceeded. Default: Infinity.
-//   timeout: 3000,
-// });
-// import { create } from 'domain';
-// import {getUser} from '../service/db.service'
+import LoadingComponent from "@/components/utils/LoadingComponent.vue";
+import ErrorComponent from "@/components/utils/ErrorComponent.vue";
+const Auth = () => ({
+  component: import("@/components/auth/Auth.vue"),
+  loading: LoadingComponent,
+  error: ErrorComponent,
+  // The error component will be displayed if a timeout is
+  // provided and exceeded. Default: Infinity.
+  timeout: 3000,
+});
+import { create } from 'domain';
+import {getUser} from '../service/db.service'
 export default {
   data(){
     return {
@@ -174,10 +174,6 @@ export default {
     logout2: async function () {
       await this.$store.dispatch('userStore/logout', null, { root: true })
 
-      // If your logging out from a different screen (like add a recipe screen,
-      // this will take you back to the home page after logout
-      // TODO(This needs to be generalized as its true for any route. There needs to be a common place for
-      // doing something like this)
       if (this.$route.name !== "index") {
         this.$router.push({
           name: "index",

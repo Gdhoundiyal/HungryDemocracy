@@ -207,20 +207,20 @@ export default {
       }
       return {favouriteCount, isAlreadyAddedToFavourite, remove}
     },
-    async addToFavorites(index) {
-      if(this.uid){
-        const recipeId = this.homeRecipes[index].id
-        const remove = this.homeRecipes[index].remove
-        await addToFavourites(this.uid, recipeId, remove)
-        const result = await this.isAddedToFavourites(recipeId)
-        this.homeRecipes[index].isAlreadyAddedToFavourite = result.isAlreadyAddedToFavourite
-        this.homeRecipes[index].favouriteCount = result.favouriteCount
-        this.homeRecipes[index].remove = result.remove
-      }
-      else{
-        this.openForm();
-      }
-    },
+    // async addToFavorites(index) {
+    //   if(this.uid){
+    //     const recipeId = this.homeRecipes[index].id
+    //     const remove = this.homeRecipes[index].remove
+    //     await addToFavourites(this.uid, recipeId, remove)
+    //     const result = await this.isAddedToFavourites(recipeId)
+    //     this.homeRecipes[index].isAlreadyAddedToFavourite = result.isAlreadyAddedToFavourite
+    //     this.homeRecipes[index].favouriteCount = result.favouriteCount
+    //     this.homeRecipes[index].remove = result.remove
+    //   }
+    //   else{
+    //     this.openForm();
+    //   }
+    // },
     openForm(){
       this.$store.dispatch('userStore/openForm', null, { root: true })
     },
